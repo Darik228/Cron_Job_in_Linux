@@ -15,7 +15,7 @@ def gzip():  # To compress a file or folder
     tar.close()
 
 
-def clear():  # To delete a file or folder inside dir_name
+def clear():  # To delete a file or folder inside "dir_name"
     # This method returns a list containing the names of the entries in the directory given by path.
     for file_or_directory_name in os.listdir(dir_name):
         path = os.path.join(dir_name, file_or_directory_name)  # get absolute path to file or folder
